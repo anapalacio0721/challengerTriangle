@@ -3,6 +3,13 @@ def get_type_triangle(sides):
     b = sides[1]
     c = sides[2]
 
+
+def print_sides_of_tringle(a,b,c):
+    print(a)
+    print(b)
+    print(c)
+
+    
     if((a+b)>c and (a+c)>b and (c+b)>a):
         if(a == b and b == c):
             print("los Lados son de un triangulo Equilatero")
